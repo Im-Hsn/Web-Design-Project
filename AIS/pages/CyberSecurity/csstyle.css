@@ -1,0 +1,161 @@
+
+.wrapper{
+  padding: 30px;
+  background: #fff;
+  max-width: 1000px;
+  width: 100%;
+/*  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);*/
+}
+
+@media (max-width:675px){
+    .wrapper{
+        max-width: 300px;
+}
+}
+
+
+.wrapper .poll-area{
+  margin: 20px 0 15px 0;
+}
+.poll-area label{
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  border: 2px solid #e6e6e6;
+  transition: all 0.2s ease;
+}
+
+label.opt-1.selected { 
+    border: 2px solid #cf2d00;
+}
+
+label.opt-2.selected {
+    border: 2px solid #4bcc00;
+}
+
+label.opt-3.selected {
+    border: 2px solid #cfbd00;
+}
+
+label.opt-4.selected {
+    border: 2px solid #01638c;
+}
+
+div#pstyle1::after {
+    background: #cf2d00 !important;
+}
+
+div#pstyle2::after {
+    background: #4bcc00 !important;
+}
+
+div#pstyle3::after {
+    background:  #cfbd00 !important;
+}
+
+div#pstyle4::after {
+    background: #01638c !important;
+}
+
+label.opt-1.selected .row .circle{
+    border-color: #cf2d00 !important;
+  }
+
+  label.opt-2.selected .row .circle{
+    border-color: #4bcc00 !important;
+  }
+
+  label.opt-3.selected .row .circle{
+    border-color: #cfbd00 !important;
+  }
+  
+  label.opt-4.selected .row .circle{
+    border-color: #01638c !important;
+  }
+
+
+label.opt-1 .row .circle::after{
+    background: #cf2d00 !important;
+  }
+
+  label.opt-2 .row .circle::after{
+    background: #4bcc00 !important;
+}
+
+  label.opt-3 .row .circle::after{
+    background: #cfbd00 !important;
+  }
+
+  label.opt-4 .row .circle::after{
+    background: #01638c !important;
+  }
+
+label .row{
+  display: flex;
+  pointer-events: none;
+  justify-content: space-between;
+}
+label .row .column{
+  display: flex;
+  align-items: center;
+}
+label .row .circle{
+  height: 19px;
+  width: 19px;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+}
+label .row .circle::after{
+  content: "";
+  height: 11px;
+  width: 11px;
+  border-radius: inherit;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  display: none;
+}
+.poll-area label:hover .row .circle::after{
+  display: block;
+  background: #e6e6e6;
+}
+label.selected .row .circle::after{
+  display: block;
+}
+label .row span{
+  font-size: 16px;
+  font-weight: 500;
+}
+label .row .percent{
+  display: none;
+}
+label .progress{
+  height: 7px;
+  width: 100%;
+  position: relative;
+  background: #f0f0f0;
+  margin: 8px 0 3px 0;
+  border-radius: 30px;
+  display: none;
+  pointer-events: none;
+}
+label .progress:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  background: #ccc;
+  width: calc(1% * var(--w));
+  border-radius: inherit;
+  transition: all 0.2s ease;
+}
+label.selectall .progress,
+label.selectall .row .percent{
+  display: block;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  display: none;
+}
