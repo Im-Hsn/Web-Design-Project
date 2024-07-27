@@ -49,7 +49,8 @@ This web design project involves the successful creation of a company's website 
 ### Project Overview Video
 Watch the project overview video to get a detailed understanding of the design process and the final output of the company website:
 
-![AIS Video](recordings/AIS.mp4)
+https://github.com/user-attachments/assets/b7714f55-a419-4c77-a459-15cbbb81034f
+
 
 ---
 
