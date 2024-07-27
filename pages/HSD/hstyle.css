@@ -1,0 +1,37 @@
+.home3{
+    display: flex;
+    background: url("../../images/HSD.svg") no-repeat center;
+    height: 100vh;
+    color: rgb(59, 141, 211);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home3 .max-width{
+    margin: auto 0 auto 30px;
+}
+
+.home3 .home-content .text-1{
+    font-size: 30px;
+    color: rgb(0, 60, 124);
+}
+
+
+
+.home3 .home-content a{
+    display: inline-block;
+    background: #acd6f2;
+    color: rgb(0, 60, 124);
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #267dff;
+    transition: all 0.3s ease;
+}
+.home3 .home-content a:hover{
+    color: #c2ebff;
+    background: #055b9a;
+}

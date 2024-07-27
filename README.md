@@ -2,6 +2,13 @@
 
 This web design project involves the successful creation of a company's website essentials, including the logo, using Adobe tools such as Adobe Photoshop and Adobe Illustrator. The project encompasses the analysis of information to determine, recommend, and plan the design of a new website. Implementation of design concepts resulted in well-built and aesthetically designed responsive pages using HTML, CSS, JavaScript, jQuery, and Bootstrap.
 
+## Table of Contents
+
+- [Project Highlights](#project-highlights)
+- [Project Components](#project-components)
+- [Technologies Used](#technologies-used)
+- [Showcase](#showcase)
+
 ## Project Highlights
 
 - **Adobe Tools Utilization:**
@@ -36,3 +43,14 @@ This web design project involves the successful creation of a company's website 
 - JavaScript
 - jQuery
 - Bootstrap
+
+## Showcase
+
+### Project Overview Video
+Watch the project overview video to get a detailed understanding of the design process and the final output of the company website:
+
+![AIS Video](recordings/AIS.mp4)
+
+---
+
+[**Return to Top**](#web-design-project---company-website)
